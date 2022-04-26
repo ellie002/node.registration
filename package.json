@@ -1,0 +1,31 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Seznam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellie002/node-todolist.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "PUG",
+    "CSV"
+  ],
+  "author": "Eliska Kanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellie002/node-todolist/issues"
+  },
+  "homepage": "https://github.com/ellie002/node-todolist#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "pug": "^3.0.2"
+  }
+}

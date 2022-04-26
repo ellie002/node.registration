@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title Registration sheeeeeeeeeeeeeeeeeeeeeeet
+        link(rel='stylesheet' href='https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css')
+    body
+        header.jumbotron-fluid.bg-danger.p-3
+            h1.text-center.text-white #{nadpis}
+
+        main.container
+            table(class="table table-striped")
+                thead
+                    tr.bg-dark.text-light
+                        th  Email
+                        th  Nickname
+                        th  Password
+                tbody        
+                    each data in datas
+                        tr
+                            td  #{data.email}
+                            td  #{data.nickname}
+                            td  #{data.password} 
+                
+        footer.bg-dark.p-2
+            .container.text-white
+                p.float-right
+                    a(href="/") Back to registration
+                p &copy; 2022 - IT2 - Eliška Káňová
+        
+        script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js')
+        script(src='https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js')
